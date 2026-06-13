@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:textStyle="bold"
+        android:background="@color/birulangit"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/exitIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_chevron_left_24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/exitIcon"
+        android:orientation="vertical"
+        tools:context=".menu.faq">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:onClick="expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/Layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mengapa air bersih dan sanitasi penting?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_purple"/>
+
+                <TextView
+                    android:id="@+id/details1"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Air bersih dan sanitasi adalah pilar penting dalam kehidupan dan pembangunan berkelanjutan. Fasilitas sanitasi yang kurang memadai dan keterbatasan akses air bersih meningkatkan risiko penyakit, terutama pada anak-anak yang lebih rentan, memperbesar angka kematian balita. Selain manfaat langsung pada kesehatan, ketersediaan air bersih dan sanitasi yang memadai mendukung pertumbuhan ekonomi dengan meningkatkan produktivitas pekerja serta memberikan dukungan bagi sektor pertanian dan industri. Keseimbangan lingkungan juga terjaga melalui manajemen sumber daya air yang berkelanjutan, di mana air bersih memainkan peran kunci dalam menjaga ekosistem global, sedangkan pencemaran air dapat mengancam keanekaragaman hayati. Akses universal terhadap air bersih dan sanitasi bukan hanya melibatkan aspek kesehatan, tetapi juga menjadi langkah kunci dalam mencegah krisis kemanusiaan, mengurangi konflik, dan mendukung stabilitas masyarakat. Semua ini mencerminkan komitmen terhadap Tujuan Pembangunan Berkelanjutan PBB untuk meningkatkan kesejahteraan manusia, mempromosikan pembangunan berkelanjutan, dan menjaga kelestarian planet ini."
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:onClick="expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/Layout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apa pentingnya pengelolaan air limbah yang baik dalam menjaga kualitas air?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_purple"/>
+
+                <TextView
+                    android:id="@+id/details2"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengelolaan air limbah yang baik memiliki signifikansi besar dalam menjaga kualitas air dan kesehatan masyarakat. Praktik yang efisien dalam penanganan limbah mencegah penyebaran penyakit, merawat ekosistem air, dan mendukung keberlanjutan sumber daya alam. Selain itu, pengelolaan air limbah yang tepat berkontribusi pada pertumbuhan ekonomi dengan menyediakan air bersih untuk kegiatan industri, pertanian, dan keperluan rumah tangga. Kepatuhan terhadap regulasi dan upaya konservasi lingkungan juga menjadi aspek penting dalam menjaga keseimbangan ekosistem air dan mencegah dampak negatif terhadap perubahan iklim. Dengan demikian, pengelolaan air limbah yang baik bukan hanya mendukung kesejahteraan manusia, tetapi juga berperan penting dalam melestarikan lingkungan hidup."
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:onClick="expand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:contentPadding="20dp">
+
+            <LinearLayout
+                android:id="@+id/Layout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bagaimana ketidaktersediaan akses air bersih dapat berdampak pada masyarakat?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/holo_purple"/>
+
+                <TextView
+                    android:id="@+id/details3"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ketidaktersediaan akses air bersih memiliki dampak serius pada masyarakat. Keterbatasan ini dapat mengakibatkan peningkatan risiko penyakit air dan malnutrisi, terutama di kalangan perempuan dan anak-anak yang bertanggung jawab mengumpulkan air. Selain itu, dampak ekonomi juga dirasakan, dengan hambatan terhadap pertumbuhan industri dan pertanian. Persaingan untuk sumber air yang terbatas dapat memicu konflik sosial dan politik, bahkan dapat menyebabkan migrasi paksa. Dalam jangka panjang, masalah ini tidak hanya merugikan kesehatan masyarakat, tetapi juga menyebabkan ketidakstabilan sosial, ekonomi, dan politik di suatu wilayah. Oleh karena itu, upaya bersama dan kebijakan yang berkelanjutan diperlukan untuk meningkatkan akses universal terhadap air bersih dan mengatasi dampak negatifnya."
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

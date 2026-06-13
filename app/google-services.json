@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1086467977370",
+    "firebase_url": "https://project-uas-b3905-default-rtdb.firebaseio.com",
+    "project_id": "project-uas-b3905",
+    "storage_bucket": "project-uas-b3905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086467977370:android:d91bc076c8a90ecf356f23",
+        "android_client_info": {
+          "package_name": "com.example.projectuas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYP37ND0m-_hQPE0zGhNMD2FwQ5c0n4u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
